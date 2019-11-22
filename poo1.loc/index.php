@@ -2,7 +2,7 @@
 	require 'PC.php';
 	$hardware = [
 		'ram' => '8GB', 
-		//'cpu' => 'Core i7'
+		'cpu' => 'Core i7'
 	];
 	$pc = new PC('123', $hardware);
 	try {
